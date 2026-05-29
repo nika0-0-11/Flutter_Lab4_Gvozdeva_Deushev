@@ -1,5 +1,5 @@
-class Anime {
-  const Anime({
+class Game {
+  const Game({
     required this.title,
     required this.description,
     required this.genre,

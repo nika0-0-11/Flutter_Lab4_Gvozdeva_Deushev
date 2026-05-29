@@ -1,19 +1,19 @@
-import 'package:anime_catalog/anime_card.dart';
-import 'package:anime_catalog/models/anime_data.dart';
+import 'package:anime_catalog/game_card.dart';
+import 'package:anime_catalog/models/game_data.dart';
 import 'package:flutter/material.dart';
 
-class AnimeList extends StatelessWidget {
-  const AnimeList({super.key});
+class GameList extends StatelessWidget {
+  const GameList({super.key});
 
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
       padding: EdgeInsets.all(12),
-      itemCount: animeList.length,
+      itemCount: gameList.length,
       itemBuilder: (context, index) {
         return Padding(
           padding: EdgeInsets.only(bottom: 16),
-          child: AnimeCard(anime: animeList[index]),
+          child: GameCard(game: gameList[index]),
           );
       },
     );

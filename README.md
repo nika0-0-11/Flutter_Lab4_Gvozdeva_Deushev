@@ -1,17 +1,52 @@
-# anime_catalog
+# Лабораторная работа №4. Flutter: списки, модели данных и карточки
 
-A new Flutter project.
+---
 
-## Getting Started
+## Основная информация 
 
-This project is a starting point for a Flutter application.
+**ФИО:** Гвоздева В.А, Деушев Т.Т  
+**Группа:** ИСП-231  
+**Дата:** 29.05.2026
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Что изучили
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Создание модели данных - научились описывать структуру объектов через Dart-классы с полями разных типов
+- ListView.builder - освоили эффективную отрисовку больших списков с виртуализацией
+- Переиспользуемые виджеты-карточки - научились создавать виджет `AnimeCard` с разделением UI на приватные методы
+- Подключение ассетов - зарегестрировали папку с изображениями в `pubspec.yaml` и вывели их через `Image.asset`
+
+---
+
+## Скриншот финального приложения
+
+![Скриншот приложения](/img/step4_Gvozdeva_Deushev.png)
+
+---
+
+## Инструкция по запуску
+
+### 1. Клонировать репозиторий
+
+```bash
+### Скопировать репозиторий
+git clone https://github.com/nika0-0-11/Flutter_Lab4_Gvozdeva_Deushev
+
+### Перейти в папку проекта
+cd Flutter_Lab4_Gvozdeva_Deushev/
+```
+
+### 2. Установить зависимотси
+
+```bash
+### Установить зависимости
+flutter pub get
+```
+
+### 3. Запустить приложение
+
+```bash
+### Запуск приложения
+flutter run -d chrome
+```
